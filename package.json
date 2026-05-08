@@ -1,6 +1,5 @@
 {
   "name": "frontend",
- // "proxy": "app-alb-1308902727.us-west-2.elb.amazonaws.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
