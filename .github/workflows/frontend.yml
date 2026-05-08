@@ -2,8 +2,7 @@ name: Frontend Deployment
 
 on:
   push:
-    branches:
-      - main
+
 
 env:
   AWS_REGION: us-west-2
