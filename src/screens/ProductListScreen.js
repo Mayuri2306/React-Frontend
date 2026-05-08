@@ -100,7 +100,7 @@ export default function ProductListScreen() {
       try {
         dispatch({ type: 'CREATE_REQUEST' });
         const { data } = await axios.post(
-          '${process.env.REACT_APP_API_URL}/api/products',
+          `${process.env.REACT_APP_API_URL}/api/products`,
           {},
           {
             headers: { Authorization: `Bearer ${userInfo.token}` },
